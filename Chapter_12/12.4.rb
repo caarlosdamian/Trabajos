@@ -16,7 +16,7 @@ read_array.each_line do |d|
       age = age + 1
     end
     puts "Tu proxima fecha de cumpleaños sera : #{name_searching[1]} #{time_actual_año}"
-    puts "Tiene #{age} años"
+    puts "Tienes #{age} años"
   end
 
 end
