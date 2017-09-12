@@ -5,11 +5,11 @@ def ask question
     if(reply == 'yes' || reply == 'no')
       if reply == 'yes'
         return true
-      else
+        else
         return false
       end
-      break
-    else
+        break
+      else
       puts 'Please answer "yes" or "no".'
     end
   end
