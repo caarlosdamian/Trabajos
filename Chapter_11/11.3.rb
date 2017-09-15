@@ -1,25 +1,9 @@
-def shuffle arr
-	shuf = []
-
-	while arr.length > 0
-		rand_index = rand(arr.length)
-		curr_index = 0
-		new_arr = []
-
-		arr.each do |item|
-			if curr_index == rand_index
-				shuf.push item
-			else
-				new_arr.push item
-			end
-			curr_index = curr_index + 1
-		end
-		arr = new_arr
-	end
-	shuf
+def music_shuffle arr
+	
 end
 
-song_name = Dir['C:/Users/Eduardo/Music/**/*.m4p']
+music_shuffle ['asd/asd.ccc', 'g/dd.ccc', 'vv/ddd.ccc'] ''
+song_name= Dir['C:/Users/Eduardo/Music/**/*.m4p']
 
 puts 'What would you like to call your playlist?'
 playlist_name = gets.chomp
